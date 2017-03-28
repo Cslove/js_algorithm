@@ -12,7 +12,7 @@ function Stack() {
 	// pop():移除栈頂的元素
 	this.pop = function() {
 		return items.pop();
-	}
+	};
 
 	// peek():返回栈頂的元素，不对栈做任何修改
 	this.peek = function() {
@@ -22,7 +22,7 @@ function Stack() {
 	// isEmpty():判断栈里是否为空
 	this.isEmpty = function() {
 		return items.length == 0;
-	}
+	};
 
 	// clear():移除栈里所有元素
 	this.clear = function() {
@@ -36,8 +36,8 @@ function Stack() {
 
 	// print():打印输出栈
 	this.print = function() {
-		console.log(items.toString())
-	}
+		console.log(items.toString());
+	};
 
 };
 
